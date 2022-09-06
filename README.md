@@ -3,7 +3,7 @@
 ## MrMocchy.github.io [→Link](https://github.com/MrMocchy/MrMocchy.github.io)
 - このページのGitHubのリポジトリ
 
-## LotationList [→Link](https://mrmocchy.github.io/LotationList/#/)
+## RotationList [→Link](https://mrmocchy.github.io/RotationList/#/)
 - 晩飯のメニューのルーティン管理用
 - 一般に何周もするリストとして使用可能
 - 保存はブラウザのローカルストレージなので別端末はおろか同端末の別ブラウザでもデータは共有されない
