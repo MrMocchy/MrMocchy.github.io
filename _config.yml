@@ -2,4 +2,3 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   hard_wrap: true
-remote_theme: cotes2020/jekyll-theme-chirpy
