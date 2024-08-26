@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: "Top Page"
-permalink: /
 ---
 
 # Top Page
