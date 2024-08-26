@@ -25,6 +25,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Header 3
 
+This is `single line code`.
+
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
@@ -42,11 +44,19 @@ end
 
 #### Header 4
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+Schrödinger's equation.
+
+$$
+i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \{-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r},t)\}\Psi(\mathbf{r},t)
+$$
+
+```python
 
 ##### Header 5
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
