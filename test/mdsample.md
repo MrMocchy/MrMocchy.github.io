@@ -1,6 +1,9 @@
 ---
 layout: default
+title: Markdown Sample
 ---
+
+From repos in [Supported themes](https://pages.github.com/themes/).
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 

@@ -1,7 +1,6 @@
-# Top Page of MrMocchy's GitHub Pages
+# MrMocchy's GitHub Pages
 
-## MrMocchy.github.io [→Link](https://github.com/MrMocchy/MrMocchy.github.io)
-- このページのGitHubのリポジトリ
+[Top Page](https://MrMocchy.github.io)
 
-https://github.com/MrMocchy/MrMocchy.github.io
-https://MrMocchy.github.io
+[Repository](https://github.com/MrMocchy/MrMocchy.github.io)
+
