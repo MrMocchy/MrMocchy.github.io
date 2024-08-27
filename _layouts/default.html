@@ -8,6 +8,9 @@
     <!-- IE互換性のためのおまじない -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="https://github.com/MrMocchy.png">
+    {% if page.title %}
+    <title>{{ page.title | escape }}</title>
+    {% endif %}
     <script
         type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
     <script type="text/javascript" async
