@@ -13,18 +13,18 @@ includes: [linja-pona.html]
 <h1 class="linja-pona">nimi pi-toki-pona</h1>
 
 ## 重要
-|sitelen| nimi| ijo|
-|---|---|---|
-|mi| mi| 私|
-|sina| sina| あなた|
-|ona| ona| 彼/彼女/それ|
-|ni| ni| これ/それ/この/その|
-li| li| [小辞]述語の前|
-|e| e| [小辞]目的語の前|
-|la| la| [小辞]条件節の後|
-|pi| pi| [小辞]修飾|
-|o| o| [小辞]命令[感動詞]呼びかけ|
-|seme| seme| [疑問詞]何|
+| sitelen | nimi | ijo |
+| --- | --- | --- |
+| mi | mi | 私 |
+| sina | sina | あなた |
+| ona | ona | 彼/彼女/それ |
+| ni | ni | これ/それ/この/その |
+| li | li | [小辞]述語の前 |
+| e | e | [小辞]目的語の前 |
+| la | la | [小辞]条件節の後 |
+| pi | pi | [小辞]修飾 |
+| o | o | [小辞]命令[感動詞]呼びかけ |
+| seme | seme | [疑問詞]何 |
 
 ## 機能語
 |sitelen| nimi| ijo|
