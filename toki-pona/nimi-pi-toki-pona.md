@@ -28,6 +28,7 @@ includes: [linja-pona.html]
 | seme | seme | [疑問詞]何 |
 
 ## 機能語
+
 |sitelen| nimi| ijo|
 |---|---|---|
 |a| a| [感動詞]強調/感動|
@@ -43,6 +44,7 @@ includes: [linja-pona.html]
 |luka| luka| 手/触る/[数詞]5つの|
 
 ## 名詞的
+
 |sitelen| nimi| ijo|
 |---|---|---|
 |soweli| soweli| 動物|
@@ -95,6 +97,7 @@ includes: [linja-pona.html]
 |leko| leko| 四角/ブロック|
 
 ## 動詞的
+
 |sitelen| nimi| ijo|
 |---|---|---|
 |alasa| alasa| 狩り/集める/探す|
@@ -124,6 +127,7 @@ includes: [linja-pona.html]
 |wile| wile| 欲する/必要とする/願望/[助動詞]したい|
 
 ## 形容詞的
+
 |sitelen| nimi| ijo|
 |---|---|---|
 |ale| ale/ali| すべての/人生/宇宙|
@@ -160,6 +164,7 @@ includes: [linja-pona.html]
 
 ## その他
 linja-pona v4.2 で収録されていない単語、お遊び的な単語など。
+
 |sitelen| nimi| ijo|
 |---|---|---|
 |-| n| [感動詞]思考中の音|

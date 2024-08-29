@@ -192,6 +192,12 @@ td {
     vertical-align: top;
 }
 
+th,
+td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
 @media only screen and (min-width: 480px) {
     body {
         font-size: 14px;
