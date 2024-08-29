@@ -13,6 +13,7 @@ includes: [linja-pona.html]
 <h1 class="linja-pona">nimi pi-toki-pona</h1>
 
 ## 重要
+
 | sitelen | nimi | ijo |
 | --- | --- | --- |
 | mi | mi | 私 |
