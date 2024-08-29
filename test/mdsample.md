@@ -50,8 +50,6 @@ $$
 i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \{-\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r},t)\}\Psi(\mathbf{r},t)
 $$
 
-```python
-
 ##### Header 5
 
 *   This is an unordered list following a header.
