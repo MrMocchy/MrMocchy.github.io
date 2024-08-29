@@ -21,7 +21,13 @@
 
 {% if page.includes %}
 {% for include in page.includes %}
+{% if include contains ".css" %}
+<link rel="stylesheet" href="{{ include }}">
+{% elsif include contains ".js" %}
+<script src="{{ include }}"></script>
+{% else %}
 {{ include }}
+{% endif %}
 {% endfor %}
 {% endif %}
 
