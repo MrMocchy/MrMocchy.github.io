@@ -11,6 +11,15 @@
     {% if page.title %}
     <title>{{ page.title | escape }}</title>
     {% endif %}
+    {% if page.includes %}
+    {% for include in page.includes %}
+    {% if include contains ".css" %}
+    <link rel="stylesheet" href="{{ include }}">
+    {% elsif include contains ".js" %}
+    <script src="{{ include }}"></script>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
     <script
         type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
     <script type="text/javascript" async
@@ -18,18 +27,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 </head>
-
-{% if page.includes %}
-{% for include in page.includes %}
-{% if include contains ".css" %}
-<link rel="stylesheet" href="{{ include }}">
-{% elsif include contains ".js" %}
-<script src="{{ include }}"></script>
-{% else %}
-{{ include }}
-{% endif %}
-{% endfor %}
-{% endif %}
 
 <body>
     <div class="wrapper">
