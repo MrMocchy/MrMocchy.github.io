@@ -7,7 +7,7 @@ html {
 
 body {
     color: #d4d4d4;
-    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    font-family: Consolas, monospace;
     font-size: 12px;
     line-height: 1.5em;
     padding: 1em;
