@@ -7,10 +7,13 @@ includes: [linja-pona.html]
 <style>
   tr :nth-child(1) {
     font-family: linja-pona;
+    font-size: 1.5em;
   }
 </style>
 
-<h1 class="linja-pona">nimi pi-toki-pona</h1>
+<h1><span class="linja-pona">nimi pi-toki-pona</span></h1>
+
+分類は完全に主観。
 
 ## 重要
 
