@@ -188,10 +188,6 @@ table {
     border-spacing: 0;
 }
 
-td {
-    vertical-align: top;
-}
-
 th,
 td {
     padding: 0.5em;

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccountBook Input</title>
+</head>
+<body>
+    <h1>AccountBook Input</h1>
+    <p>
+    年: <input type="text" id="year" size="4" value="2024">
+    月: <input type="text" id="month" size="2" value="9">
+    日: <input type="text" id="day" size="2" value="5">
+    </p>
+    <p>
+    カテゴリ: <select id="category">
+        <option value="その他">その他</option>
+        <option value="学食">学食</option>
+        <option value="食費(学食以外)">食費(学食以外)</option>
+        <option value="日用品">日用品</option>
+        <option value="交通費">交通費</option>
+        <option value="娯楽">娯楽</option>
+        <option value="医療">医療</option>
+    </select>
+    <input type="checkbox" id="luxury" value="">嗜好品</input>
+    </p>
+    <p>
+    費目: <select id="himoku">
+        <option value="その他">その他</option>
+        <option value="昼食">昼食</option>
+        <option value="KOHYO">KOHYO</option>
+    </select>
+    その他: <input type="text" id="other" size="15">
+    </p>
+    <p>
+    金額: <input type="text" id="amount" size="10" value="600">
+    </p>
+    <p>
+    備考:
+    </p>
+    <p>
+    <textarea id="description" rows="4" cols="40"></textarea>
+    </p>
+    <p>
+    <button id="submit" type="button">送信</button>
+    </p>
+    <p id="result">
+    </p>
+</body>
+<script>
+    let submitButton = document.getElementById('submit');
+    submitButton.addEventListener('click', function() {
+        let year = document.getElementById('year').value;
+        let month = document.getElementById('month').value;
+        let day = document.getElementById('day').value;
+        let category = document.getElementById('category').value;
+        let luxury = document.getElementById('luxury').checked? 'Yes': 'No';
+        let himoku = document.getElementById('himoku').value;
+        if (himoku == 'その他') {
+            himoku = document.getElementById('other').value;
+        }
+        let amount = document.getElementById('amount').value;
+        let description = document.getElementById('description').value;
+        
+        
+        let data = {
+            year: year,
+            month: month,
+            day: day,
+            category: category,
+            luxury: luxury,
+            himoku: himoku,
+            amount: amount,
+            description: description
+        };
+        
+        let result = document.getElementById('result');
+        if (year == '' || month == '' || day == '' || category == '' || amount == '') {
+            result.innerHTML = '必須項目が入力されていません';
+            return;
+        }
+        // result.innerHTML = JSON.stringify(data).replace(/,/g, ',<br>');
+        // return;
+        
+        var postparam =
+        {
+            "method": "POST",
+            "mode": "no-cors",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "body": JSON.stringify(data)
+        };
+        url = "https://script.google.com/macros/s/AKfycbyT9bu_BtVQHn1z7j2mJAnzklT28EIbofrWsY8IfLFWdaL1FF-1vpTt49A196_qSZxB/exec";
+        fetch(url, postparam)
+        
+        let date = new Date();
+        let time = ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2) + ':' + ('0' + date.getSeconds()).slice(-2) + '.' + date.getMilliseconds();
+        result.innerHTML = '['+time+'] 送信しました';
+        
+    });
+</script>
+</html>
