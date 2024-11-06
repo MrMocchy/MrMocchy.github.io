@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: MrMocchy
 site_url: https://mrmocchy.github.io
 
 theme:
@@ -27,4 +27,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-
+  
+  logo: https://github.com/MrMocchy.png
+  favicon: https://github.com/MrMocchy.png
