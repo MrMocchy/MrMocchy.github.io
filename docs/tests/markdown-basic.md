@@ -1,17 +1,19 @@
 
 # Markdown Basic
 
-> This contents is from https://github.com/pages-themes/*/index.md via [GitHub Pages Supported themes](https://pages.github.com/themes/).
+> This content is from https://github.com/pages-themes/*/index.md via [GitHub Pages Supported themes](https://pages.github.com/themes/), and edited for testing Material for MkDocs.
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](/).
+[Link to another page](../index.md).
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+`#!md # Header 1`
+A TOC is not created with double h1 headings.
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
