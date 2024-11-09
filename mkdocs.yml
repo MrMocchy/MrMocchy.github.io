@@ -3,6 +3,7 @@ site_url: https://mrmocchy.github.io
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -33,10 +34,6 @@ theme:
   
   features:
     - content.code.copy
-
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
   # Formatting

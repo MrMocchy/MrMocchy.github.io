@@ -1,0 +1,12 @@
+
+{% extends "base.html" %}
+
+{% block scripts %}
+    {{ super() }}
+    
+    {% if page.meta and page.meta.math %}
+        {{"javascripts/mathjax.js" | script_tag}}
+        {{"https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js" | script_tag}}
+    {% endif %}
+    
+{% endblock %}
