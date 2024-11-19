@@ -43,6 +43,10 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   
+  # Structure
+  - attr_list
+  - md_in_html
+  
   # Syntax Highlighting
   - pymdownx.highlight
   - pymdownx.inlinehilite
@@ -52,3 +56,6 @@ markdown_extensions:
   # Math
   - pymdownx.arithmatex:
       generic: true
+
+extra_css:
+  - stylesheets/extra.css
