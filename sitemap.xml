@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mrmocchy.github.io/</loc>
+         <lastmod>2025-01-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mrmocchy.github.io/cooking/recipes/</loc>
+         <lastmod>2025-01-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mrmocchy.github.io/random/pc-setup/</loc>
+         <lastmod>2025-01-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mrmocchy.github.io/random/yt-dlp/</loc>
+         <lastmod>2025-01-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mrmocchy.github.io/tests/markdown-basic/</loc>
+         <lastmod>2025-01-22</lastmod>
+    </url>
+    <url>
+         <loc>https://mrmocchy.github.io/tests/markdown-extended/</loc>
+         <lastmod>2025-01-22</lastmod>
+    </url>
+</urlset>
