@@ -50,6 +50,10 @@ mp3などのメタデータを編集
 `yt-dlp --rm-cache-dir`  
 キャッシュ削除
 
+`yt-dlp --update`  
+アップデートする。`-U`でも可  
+`ERROR: unable to download video data: HTTP Error 403: Forbidden` と出たらアップデートが必要っぽい。
+
 ## 参考
 
 [yt-dlp オプション一覧及びそのメモ](https://masayoshi-9a7ee.hatenablog.com/entry/2021/11/06/112639)
