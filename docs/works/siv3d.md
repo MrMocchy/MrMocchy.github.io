@@ -19,6 +19,12 @@ v2 の作成中にエタってしまったので、リポジトリのトップ�
 
 ## ちょっとしたものもの
 
+### 不可能図形の描画
+
+[Siv3Dで不可能図形の描画 - Blog | OUCC - 大阪大学コンピュータクラブ](https://oucc.org/blog/articles/2024-09-28-drawing-impossible-figure-with-siv3d/)
+
+レンダーテクスチャの可能性を感じた。
+
 ### もちもち伸びる円
 
 [Github Gist](https://gist.github.com/MrMocchy/f4c44b80f4f93d0f5b788576155ff110)
