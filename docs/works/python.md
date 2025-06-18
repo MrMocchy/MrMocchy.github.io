@@ -16,6 +16,6 @@ OUCCの開発プロジェクトはフォーラムで行うことになってい�
 
 ## ゲームの自動化
 
-[pythonとArduinoと画像認識でタワーディフェンスゲームの自動化をしてみた - Blog | OUCC - 大阪大学コンピュータクラブ](https://oucc.org/blog/articles/901/)
+[pythonとArduinoと画像認識でタワーディフェンスゲームの自動化をしてみた - Blog | OUCC - 大阪大学コンピュータクラブ](https://oucc.github.io/blog/articles/901/)
 
 作ってるときは楽しかったけど、完成後これ使ってないや。

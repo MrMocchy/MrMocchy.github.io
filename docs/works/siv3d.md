@@ -21,7 +21,7 @@ v2 の作成中にエタってしまったので、リポジトリのトップ�
 
 ### 不可能図形の描画
 
-[Siv3Dで不可能図形の描画 - Blog | OUCC - 大阪大学コンピュータクラブ](https://oucc.org/blog/articles/2024-09-28-drawing-impossible-figure-with-siv3d/)
+[Siv3Dで不可能図形の描画 - Blog | OUCC - 大阪大学コンピュータクラブ](https://oucc.github.io/blog/articles/2024-09-28-drawing-impossible-figure-with-siv3d/)
 
 レンダーテクスチャの可能性を感じた。
 
