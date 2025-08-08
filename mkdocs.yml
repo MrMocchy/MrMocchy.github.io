@@ -46,6 +46,8 @@ markdown_extensions:
   # Structure
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
   
   # Syntax Highlighting
   - pymdownx.highlight
