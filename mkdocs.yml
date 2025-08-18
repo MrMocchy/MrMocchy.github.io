@@ -48,6 +48,8 @@ markdown_extensions:
   - md_in_html
   - admonition
   - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
   
   # Syntax Highlighting
   - pymdownx.highlight
