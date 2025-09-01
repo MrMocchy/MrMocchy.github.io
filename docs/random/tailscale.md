@@ -57,3 +57,19 @@ tailscale status
 Termius というSSHアプリで出先からスマホで自宅PCに入れる。
 iPhoneではサイズ的に操作性が××だが、画面キーボードはちゃんと工夫されていると感じた。
 
+## Remote Desktop
+
+遠方からTailscaleのIPでWindowsのリモートデスクトップ接続ができる。
+これを介してSteam Remote Playもできるが、
+`would you like to accept secure desktop input from steam?`
+と表示されてプレイできないゲームもある。
+その場合、リモートデスクトップでホスト側にて以下の操作を行う。
+```
+query session
+```
+で現在のセッションIDを確認し、
+```
+tscon <セッションID> /dest:console
+```
+とする。
+ここで接続が切れるがこの状態でSteam Remote Playをするとプレイできるようになっているはず。
