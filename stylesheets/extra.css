@@ -1,0 +1,14 @@
+
+/* 
+空の th を非表示にする。
+cf: https://stackoverflow.com/a/58152877
+*/
+thead:has(th:empty) {
+    display: none;
+}
+table:has(th:empty) {
+    border-top: none !important;
+}
+.indent-like-list {
+    margin-left: 2em;
+}
