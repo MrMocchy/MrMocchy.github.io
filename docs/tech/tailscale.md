@@ -64,7 +64,7 @@ iPhoneではサイズ的に操作性が××だが、画面キーボードはち�
 `would you like to accept secure desktop input from steam?`
 と表示されてプレイできないゲームもある。
 その場合、リモートデスクトップでホスト側にて以下の操作を行う。
-```
+```cmd title="(管理者権限)"
 query session
 ```
 で現在のセッションIDを確認し、
