@@ -14,6 +14,7 @@ cf: [インストール不要！WindowsでLinuxコマンドを使う](https://qi
     シェルも使える。
 
 - 短く使う
+    
     以下を用意。
     ```batch title="bb.bat"
     @busybox64u %*
@@ -24,6 +25,6 @@ cf: [インストール不要！WindowsでLinuxコマンドを使う](https://qi
     ```
 
 - cmdでそのままLinuxコマンドを使えるようにする
-    ```batch title="cmd"
+    ```batch title="cmd（管理者権限）"
     mklink ls.exe busybox64u.exe
     ```

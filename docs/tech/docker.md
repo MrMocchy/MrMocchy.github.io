@@ -5,7 +5,7 @@
 
 ``` mermaid
 %%{init: {'theme':'dark'}}%%
-graph TB
+graph LR
     subgraph R[レジストリ]
     end
     subgraph I[イメージ]
